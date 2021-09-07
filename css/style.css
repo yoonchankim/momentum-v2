@@ -4,9 +4,12 @@
 body{
     position: relative;
     margin:0;
+    display: start;
+    justify-content: center;
 }
 #quote span{
-    display: block;    
+    display: flex;
+    justify-content: center;    
 }
 img{
     width: 100%;
@@ -15,13 +18,27 @@ img{
     z-index:-1;
 }
 #big{
-    background-color: rgb(255, 255, 255);
-    width:40%;
-    opacity:0.5;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 h2{
     margin:0;
 }
 #weather span{
     display:block;
+    justify-content: center;    
+}
+#clock{
+    font-size:40px;
+}
+h1{
+    font-size:50px;
+}
+#big-clock{
+    background-color:aqua;
+}
+#big-form,#big-name{
+    background-color:rgb(255, 157, 0);
 }
