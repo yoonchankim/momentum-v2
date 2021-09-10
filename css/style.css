@@ -21,7 +21,6 @@ body{
     justify-content: center;
     bottom:0;
     left:50%;
-    min-width: ;
     transform: translate(-50%,0);
 }
 #quote span{
