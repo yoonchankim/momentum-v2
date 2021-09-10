@@ -1,26 +1,49 @@
-.hidden{
-    display:none;
+html{
+    position: relative;
+    height:100vh;
+    margin:0;
 }
 body{
-    position: relative;
+    padding: 0;
     margin:0;
-    display: start;
+    display: flex;
     justify-content: center;
+    background-color: azure;
+    flex-direction: column;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#quote{ 
+    position: absolute;
+    background-color: rgb(255, 240, 240);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    bottom:0;
+    left:50%;
+    min-width: ;
+    transform: translate(-50%,0);
 }
 #quote span{
     display: flex;
-    justify-content: center;    
+    justify-content: center;   
+    text-align: center; 
 }
 img{
     width: 100%;
     position: absolute;
     top:0;
+    left:0;
+    right:0;
+    margin:0;
     z-index:-1;
 }
 #big{
     display:flex;
+    position: relative;
     justify-content: center;
     align-items: center;
+    margin:0;
     flex-direction: column;
 }
 h2{
@@ -49,8 +72,8 @@ h1{
     margin-bottom:20px;
 }
 #big-form{
-    width:50%;
     height:40px;
+    margin-top:20px;
 }
 #big-form form{
     display: flex;
@@ -62,7 +85,22 @@ h1{
 
 #big-form form input{
     font-size:20px;
+    margin:20px;
 }
 li{
     margin:10px;
+}
+#todo-form input{
+    font-size:20px;
+    width: 270px;
+}
+.hidden{
+    display:none;
+}
+#big-name h1{
+    font-size:55px;
+    margin:25px;
+}
+#big-name{
+    box-sizing: border-box;
 }
