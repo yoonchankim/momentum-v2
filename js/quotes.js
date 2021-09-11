@@ -40,8 +40,21 @@ const quotes = [
       author: "나폴레온 힐",
     },
   ];
+function handleHover(){
+  author.classList.remove("hidden");
+  quote.style.margin="20px"
+  bigQuote.style.padding="10px"
+}
+function handleNotHover(){
+  author.classList.add("hidden");
+  quote.style.margin="10px"
+  bigQuote.style.padding="0px"
+}
+const bigQuote=document.querySelector("#quote");
 const quote=document.querySelector("#quote span:first-child");
 const author=document.querySelector("#quote span:last-child");
 const todaysQuote=quotes[Math.floor(Math.random()*quotes.length)];
 quote.innerHTML=todaysQuote.quote;
 author.innerHTML=todaysQuote.author;
+bigQuote.addEventListener("mouseover",handleHover);
+bigQuote.addEventListener("mouseout",handleNotHover);
