@@ -117,3 +117,11 @@ li{
 #big-name{
     box-sizing: border-box;
 }
+ul{
+    padding:0;
+}
+#big-todo{
+    padding:20px;
+    box-sizing: border-box;
+    background-image:url('img/NOTE.png');
+}
