@@ -82,7 +82,7 @@ h1{
 #big-form,#big-name{
     background-color:rgb(255, 157, 0);
     border-radius:50px;
-    margin-bottom:20px;
+    margin-bottom:50px;
 }
 #big-form{
     height:40px;
@@ -100,12 +100,12 @@ h1{
     font-size:20px;
     margin:20px;
 }
-li{
-    margin:10px;
-}
 #todo-form input{
     font-size:20px;
     width: 270px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:10px;
 }
 .hidden{
     display:none;
@@ -119,9 +119,18 @@ li{
 }
 ul{
     padding:0;
+    margin:0;
+}
+li{
+    margin-left:50px;
+    margin-right:20px;
+    margin-bottom:10px;
+    margin-top:10px;
+    font-size:30px;
 }
 #big-todo{
-    padding:20px;
-    box-sizing: border-box;
-    background-image:url('img/NOTE.png');
+    background-image:url(file:///C:/Users/%EA%B9%80%EC%9C%A4%EC%B0%AC/Desktop/momentum-v2/img/NOTE.png);
+    height:450px;
+    overflow-y: scroll;
+    border-radius:23px;
 }
