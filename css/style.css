@@ -120,6 +120,7 @@ h1{
 ul{
     padding:0;
     margin:0;
+    list-style-type:"ㅡ ";
 }
 li{
     margin-left:50px;
@@ -131,6 +132,15 @@ li{
 #big-todo{
     background-image:url(file:///C:/Users/%EA%B9%80%EC%9C%A4%EC%B0%AC/Desktop/momentum-v2/img/NOTE.png);
     height:450px;
-    overflow-y: scroll;
+    overflow: auto;
     border-radius:23px;
+}
+#big-todo::-webkit-scrollbar {
+    background-color: grey;
+    border-radius: 30px;
+}
+#big-todo::-webkit-scrollbar-thumb {
+    background-color: #2f3542;
+    border-radius: 30px;
+    box-shadow: inset 0px 0px 5px white;
 }
