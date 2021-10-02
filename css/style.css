@@ -134,7 +134,7 @@ li{
     font-size:30px;
 }
 #big-todo{
-    background-image:url(file:///C:/Users/%EA%B9%80%EC%9C%A4%EC%B0%AC/Desktop/momentum-v2/img/NOTE.png);
+    background-image:url("../img/NOTE.png");;
     height:450px;
     overflow: auto;
     border-radius:23px;
